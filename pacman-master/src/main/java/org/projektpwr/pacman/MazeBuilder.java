@@ -50,10 +50,10 @@ public class MazeBuilder {
                     .read(getClass().getResource("/res/PacMan3up.gif"));
                 pacManDownImage = ImageIO.read(getClass().getResource(
                     "/res/PacMan3down.gif"));
-                blinkyGhost = ImageIO.read(getClass().getResource("/res/Ghost1.gif"));
-                pinkyGhost = ImageIO.read(getClass().getResource("/res/GhostScared1.gif"));
-                clydeGhost = ImageIO.read(getClass().getResource("/res/GhostScared2.gif"));
-                // ghostImageRight = ImageIO.read(getClass().getResource("/res/Ghost1.gif"));
+                blinkyGhost = ImageIO.read(getClass().getResource("/res/Blinky.gif"));
+                pinkyGhost = ImageIO.read(getClass().getResource("/res/Pinky.gif"));
+                clydeGhost = ImageIO.read(getClass().getResource("/res/Clyde.gif"));
+               
             }
         } catch (IOException ex) {
             throw new RuntimeException(ex);
